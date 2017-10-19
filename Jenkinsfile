@@ -4,7 +4,7 @@ pipeline {
         stage('build') {
             steps {
                 bat '''
-                cd day8/chat-example-server/
+                
                 '''
             }
         }
