@@ -14,7 +14,7 @@ io.on('connection', function(socket) {
     socket.on('error', (error) => {
       console.log("chat message", "error")
     });
-    socket.on('disconnect', (fasdfsdf) => {
+    socket.on('disconnect', (reason) => {
       console.log("chat message", "disconnect")
     });
 
